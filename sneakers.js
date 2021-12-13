@@ -14,7 +14,7 @@ pic.addEventListener('click', firstSneaker)
 
 
 function firstSneaker() {
-    document.querySelector('#shoe').src = 'pic1.jpg'
+    document.querySelector('#shoe').src = 'images/pic1.jpg'
     document.querySelector('#price').innerHTML = '<p>$125.00 <span>50%</span></p>'
     document.querySelector('#money').innerText = '$250.00'
 
@@ -25,7 +25,7 @@ var secondPic = document.querySelector('#second-pic')
 secondPic.addEventListener('click', secondSneaker)
 
 function secondSneaker() {
-    document.querySelector('#shoe').src = 'pic2.jpg'
+    document.querySelector('#shoe').src = 'images/pic2.jpg'
     document.querySelector('#price').innerHTML = '<p>$150.00 <span>50%</span></p>'
     document.querySelector('#money').innerText = '$300.00'
 
@@ -36,7 +36,7 @@ var thirdPic = document.querySelector('#third-pic')
 thirdPic.addEventListener('click', thirdSneaker)
 
 function thirdSneaker() {
-    document.querySelector('#shoe').src = 'pic3.jpg'
+    document.querySelector('#shoe').src = 'images/pic3.jpg'
     document.querySelector('#price').innerHTML = '<p>$100.00 <span>50%</span></p>'
     document.querySelector('#money').innerText = '$200.00'
 }
@@ -46,7 +46,7 @@ var fourthPic = document.querySelector('#fourth-pic')
 fourthPic.addEventListener('click', fourthSneaker)
 
 function fourthSneaker() {
-    document.querySelector('#shoe').src = 'pic4.jpg'
+    document.querySelector('#shoe').src = 'images/pic4.jpg'
     document.querySelector('#price').innerHTML = '<p>$100.00 <span>50%</span></p>'
     document.querySelector('#money').innerText = '$200.00'
 }

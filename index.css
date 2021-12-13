@@ -8,10 +8,7 @@
 }
 
 body {
-
   background: rgba(253, 233, 198, 0.911);
-
-
 }
 
 
@@ -74,6 +71,7 @@ a {
 }
 
 section {
+  font-family: Verdana, Geneva, Tahoma;
   display: flex;
   margin-left: 22%;
   margin-right: 25%;
@@ -145,6 +143,7 @@ hr {
   margin-top: 1.5em;
   margin-bottom: 1em;
   font-size: 10px;
+  font-weight: bold;
 }
 
 
@@ -221,7 +220,6 @@ p span {
   }
 
   #product #images {
-    background: red;
     width: 100%;
 
   }
@@ -255,5 +253,15 @@ p span {
     margin-left: 0;
     margin-top: 5px;
 
+  }
+
+  #sneakers-company {
+font-size: 12px;
+  
+  }
+
+  #product-details #text {
+font-weight: normal;
+font-size: 12px;
   }
 }
