@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+
+  background: rgba(253, 233, 198, 0.911);
+
+
+}
+
+
+#container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 60%;
+  margin: auto;
+
+
+}
+
+hr {
+
+  width: 60%;
+  margin: auto;
+}
+
+#container-second a {
+  padding: 20px 5px 20px 5px;
+}
+
+#container-second {
+  margin-left: 3em;
+  flex: 1;
+
+}
+
+#container-third a {
+  padding: 5px;
+
+
+}
+
+a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #000;
+}
+
+
+#container-first a {
+  font-size: 16px;
+  font-weight: bold;
+  color: rgba(255, 166, 0, 0.911);
+}
+
+#product {
+  width: 45%;
+  margin-right: 2em;
+
+}
+
+#product-details {
+  margin-left: 3em;
+
+
+}
+
+section {
+  display: flex;
+  margin-left: 22%;
+  margin-right: 25%;
+  margin-top: 30px;
+}
+
+
+button {
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+
+#icrement-decre {
+  display: flex;
+
+
+
+}
+
+#container-incre-decre {
+  display: flex;
+  margin-top: 1em;
+
+}
+
+#add-to-cart {
+  padding: 10px;
+  border-radius: 7px;
+  width: 15em;
+  margin-left: 1em;
+  background: rgba(255, 166, 0, 0.911);
+  cursor: pointer;
+}
+
+hr {
+  color: rgba(255, 166, 0, 0.911);
+
+}
+
+#images {
+  width: 108%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#images img {
+  margin-top: 22px;
+  border-radius: 5px;
+  width: 65px;
+
+}
+
+#product #shoe {
+  border-radius: 10px;
+  width: 20em;
+}
+
+#sneakers-company {
+  margin-top: 4em;
+  margin-bottom: 1.5em;
+  font-size: 10px;
+  color: rgba(255, 166, 0, 0.911);
+
+}
+
+
+#product-details #text {
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+  font-size: 10px;
+}
+
+
+p span {
+  font-size: 12px;
+}
+
+#money {
+  font-size: 12px;
+}
+
+#cart {
+  width: 20px;
+}
+
+#user {
+  margin-left: 10px;
+  width: 35px;
+  background: rgba(255, 255, 255, 0.877);
+  border-radius: 50%;
+}
+
+
+#images img {
+  transition: all 0.5s ease-in;
+}
+
+#images img:hover {
+  cursor: pointer;
+  opacity: 0.7;
+  transform: scale(0.98);
+}
+
+#menu {
+  display: none;
+}
+
+@media(max-width:1050px) {
+  #menu {
+    display: inline;
+    margin-left: 10px;
+  }
+
+  nav {
+    background: rgba(0, 0, 0, 0.041);
+    position: absolute;
+    left: 0;
+    transform: translateY(160px);
+    transition: 0.5s ease-in transform;
+  }
+
+  #container-second a {
+    display: block;
+
+  }
+
+  .show {
+    transform: translateY(-190px);
+  }
+
+
+  section {
+    flex-direction: column;
+  }
+
+  #product {
+    width: 100%;
+
+  }
+
+  #product #shoe {
+    width: 100%;
+
+  }
+
+  #product #images {
+    background: red;
+    width: 100%;
+
+  }
+
+
+
+  #container-incre-decre {
+    flex-direction: column;
+
+  }
+
+  #images img {
+
+    width: 100%;
+
+  }
+
+
+
+
+  #product-details {
+
+    margin-left: 0;
+
+
+  }
+
+
+  #add-to-cart {
+
+    margin-left: 0;
+    margin-top: 5px;
+
+  }
+}
