@@ -66,6 +66,7 @@ a {
 
 #product-details {
   margin-left: 3em;
+  background-color: red;
 
 
 }
@@ -113,8 +114,10 @@ hr {
 }
 
 #images {
+  background-color: green;
   width: 108%;
   display: flex;
+flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -204,64 +207,56 @@ p span {
     transform: translateY(-191px);
   }
 
+}
 
-  section {
+
+@media(max-width: 1040px){
+  section{
     flex-direction: column;
   }
 
-  #product {
-    width: 100%;
-
-  }
 
   #product #shoe {
     width: 100%;
-
   }
 
-  #product #images {
+  #product{
     width: 100%;
-
+  }
+  #product-details{
+    margin: 1em 0;
+    width: 100;
   }
 
 
-
-  #container-incre-decre {
-    flex-direction: column;
-
-  }
-
-  #images img {
-
+  #add-to-cart{
+    padding: 10px;
     width: 100%;
-
-  }
-
-
+   }
+}
 
 
-  #product-details {
 
-    margin-left: 0;
-
-
-  }
-
-
-  #add-to-cart {
-
-    margin-left: 0;
-    margin-top: 5px;
-
-  }
-
-  #sneakers-company {
-font-size: 12px;
-  
-  }
-
-  #product-details #text {
-font-weight: normal;
-font-size: 12px;
+@media(max-width:1026px){
+  #images img{
+    width: 86px;
   }
 }
+
+
+@media(max-width:1018px){
+  #images img{
+    width: 100px;
+  }
+}
+
+@media(max-width:793px){
+  #images img{
+    width: 120px;
+  }
+
+  #images{
+    justify-content: center;
+  }
+}
+
