@@ -215,6 +215,16 @@ p span {
   }
 
 
+  #sneakers-company{
+    font-size: 20px;
+  }
+
+
+  #product-details #text{
+    font-size: 15px;
+    font-weight: normal;
+  }
+  
   #product #shoe {
     width: 100%;
   }
