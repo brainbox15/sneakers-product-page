@@ -66,9 +66,6 @@ a {
 
 #product-details {
   margin-left: 3em;
-  background-color: red;
-
-
 }
 
 section {
@@ -114,7 +111,6 @@ hr {
 }
 
 #images {
-  background-color: green;
   width: 108%;
   display: flex;
 flex-wrap: wrap;
@@ -225,7 +221,7 @@ p span {
   }
   #product-details{
     margin: 1em 0;
-    width: 100;
+    width: 100%;
   }
 
 
