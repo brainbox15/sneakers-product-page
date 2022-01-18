@@ -7,6 +7,7 @@
   font-family: 'Poppins', sans-serif;
 }
 
+
 body {
   background: rgba(253, 233, 198, 0.911);
 }
@@ -74,6 +75,7 @@ a {
   margin-left: 3em;
 }
 
+/* Styles the section */
 section {
   font-family: Verdana, Geneva, Tahoma;
   display: flex;
@@ -82,7 +84,7 @@ section {
   margin-top: 30px;
 }
 
-
+/* styles the button */
 button {
   padding: 10px;
   border: none;
@@ -186,6 +188,7 @@ p span {
   display: none;
 }
 
+/* Responsive mode for smaller devices */
 @media(max-width:1050px) {
   #menu {
     display: inline;
@@ -219,7 +222,7 @@ p span {
   }
 }
 
-
+/* Responsive mode for smaller devices */
 @media(max-width: 1040px) {
   section {
     flex-direction: column;
@@ -264,6 +267,7 @@ p span {
 }
 
 
+/* Responsive mode for smaller devices */
 
 @media(max-width:1018px) {
   #images img {
@@ -271,6 +275,7 @@ p span {
   }
 }
 
+/* Responsive mode for smaller devices */
 @media(max-width:793px) {
   #images img {
     width: 120px;
