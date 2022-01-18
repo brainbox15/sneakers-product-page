@@ -66,6 +66,9 @@ a {
 
 #product-details {
   margin-left: 3em;
+  background-color: red;
+
+
 }
 
 section {
@@ -111,6 +114,7 @@ hr {
 }
 
 #images {
+  background-color: green;
   width: 108%;
   display: flex;
 flex-wrap: wrap;
@@ -209,6 +213,9 @@ p span {
 @media(max-width: 1040px){
   section{
     flex-direction: column;
+    margin-left: 2em;
+    margin-right: 2em;
+
   }
 
 
