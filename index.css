@@ -113,7 +113,7 @@ hr {
 #images {
   width: 108%;
   display: flex;
-flex-wrap: wrap;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -203,11 +203,19 @@ p span {
     transform: translateY(-191px);
   }
 
+
+  #images {
+    justify-content: center;
+  }
+
+  #images img {
+    margin-right: 10px;
+  }
 }
 
 
-@media(max-width: 1040px){
-  section{
+@media(max-width: 1040px) {
+  section {
     flex-direction: column;
     margin-left: 2em;
     margin-right: 2em;
@@ -215,52 +223,52 @@ p span {
   }
 
 
-  #sneakers-company{
+  #sneakers-company {
     font-size: 20px;
   }
 
 
-  #product-details #text{
+  #product-details #text {
     font-size: 15px;
     font-weight: normal;
   }
-  
+
   #product #shoe {
     width: 100%;
   }
 
-  #product{
+  #product {
     width: 100%;
   }
-  #product-details{
+
+  #product-details {
     margin: 1em 0;
     width: 100%;
   }
 
 
-  #add-to-cart{
+  #add-to-cart {
     padding: 10px;
     width: 100%;
-   }
+  }
 
-   #images img{
+  #images img {
     width: 86px;
   }
 }
 
 
 
-@media(max-width:1018px){
-  #images img{
+@media(max-width:1018px) {
+  #images img {
     width: 100px;
   }
 }
 
-@media(max-width:793px){
-  #images img{
+@media(max-width:793px) {
+  #images img {
     width: 120px;
   }
 
- 
-}
 
+}
