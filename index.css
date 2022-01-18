@@ -242,15 +242,12 @@ p span {
     padding: 10px;
     width: 100%;
    }
-}
 
-
-
-@media(max-width:1026px){
-  #images img{
+   #images img{
     width: 86px;
   }
 }
+
 
 
 @media(max-width:1018px){
