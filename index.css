@@ -24,6 +24,7 @@ body {
 
 }
 
+
 hr {
 
   width: 60%;
@@ -32,6 +33,7 @@ hr {
 
 #container-second a {
   padding: 20px 5px 20px 5px;
+  font-size: 16px;
 }
 
 #container-second {
@@ -46,6 +48,10 @@ hr {
 
 }
 
+h3 {
+  font-size: 25px;
+}
+
 a {
   text-decoration: none;
   font-size: 12px;
@@ -54,21 +60,25 @@ a {
 
 
 #container-first a {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
   color: rgba(255, 166, 0, 0.911);
 }
 
 #product {
+  margin-top: 7em;
   width: 45%;
   margin-right: 2em;
-
 }
 
 
-#price-container{
+#price-container {
   background-color: rgba(255, 255, 255, 0.836);
   display: inline-block;
+  font-weight: 600;
+  padding: 5px 10px;
+  box-shadow: 0 0 5px;
+  border-radius: 5px;
 }
 
 #product-details {
@@ -79,9 +89,10 @@ a {
 section {
   font-family: Verdana, Geneva, Tahoma;
   display: flex;
-  margin-left: 22%;
-  margin-right: 25%;
+  width: 70%;
+  margin: auto;
   margin-top: 30px;
+  margin-bottom: 15em;
 }
 
 /* styles the button */
@@ -89,6 +100,7 @@ button {
   padding: 10px;
   border: none;
   outline: none;
+  box-shadow: 0 0 5px;
 }
 
 #icrement-decre {
@@ -98,11 +110,23 @@ button {
 
 }
 
+#increment,
+#decrement,
+#output {
+  box-shadow: 0 0 5px;
+}
+
+#increment,
+#decrement:hover {
+  cursor: pointer;
+}
+
 #container-incre-decre {
   display: flex;
   margin-top: 1em;
 
 }
+
 
 #add-to-cart {
   padding: 10px;
@@ -119,7 +143,6 @@ hr {
 }
 
 #images {
-  width: 108%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -129,28 +152,30 @@ hr {
   margin-top: 22px;
   border-radius: 5px;
   width: 65px;
+  box-shadow: 0 0 5px;
 
 }
 
 #product #shoe {
   border-radius: 10px;
   width: 20em;
+  box-shadow: 0 0 5px;
 }
+
 
 #sneakers-company {
   margin-top: 4em;
-  margin-bottom: 1.5em;
-  font-size: 10px;
+  margin-bottom: 24px;
+  font-size: 18px;
   color: rgba(255, 166, 0, 0.911);
 
 }
 
 
 #product-details #text {
-  margin-top: 1.5em;
+
   margin-bottom: 1em;
-  font-size: 10px;
-  font-weight: bold;
+  font-size: 18px;
 }
 
 
@@ -163,12 +188,12 @@ p span {
 }
 
 #cart {
-  width: 20px;
+  width: 25px;
 }
 
 #user {
   margin-left: 10px;
-  width: 35px;
+  width: 40px;
   background: rgba(255, 255, 255, 0.877);
   border-radius: 50%;
 }
@@ -186,6 +211,7 @@ p span {
 
 #menu {
   display: none;
+  font-size: 30px;
 }
 
 /* Responsive mode for smaller devices */
@@ -213,10 +239,6 @@ p span {
   }
 
 
-  #images {
-    justify-content: center;
-  }
-
   #images img {
     margin-right: 10px;
   }
@@ -226,20 +248,17 @@ p span {
 @media(max-width: 1040px) {
   section {
     flex-direction: column;
-    margin-left: 2em;
-    margin-right: 2em;
-
+    width: 90%;
+    margin: auto;
+    margin-bottom: 7em;
   }
 
+  hr {
+    width: 90%;
+  }
 
   #sneakers-company {
     font-size: 20px;
-  }
-
-
-  #product-details #text {
-    font-size: 15px;
-    font-weight: normal;
   }
 
   #product #shoe {
@@ -262,24 +281,27 @@ p span {
   }
 
   #images img {
-    width: 86px;
+    width: 180px;
   }
+
 }
 
-
-/* Responsive mode for smaller devices */
-
-@media(max-width:1018px) {
-  #images img {
-    width: 100px;
-  }
-}
 
 /* Responsive mode for smaller devices */
 @media(max-width:793px) {
   #images img {
-    width: 120px;
+    width: 160px;
   }
 
+  #product-details #text {
 
+    margin-bottom: 1em;
+    font-size: 16px;
+  }
+
+}
+
+#copyright {
+  text-align: center;
+  padding: 2em 1em;
 }

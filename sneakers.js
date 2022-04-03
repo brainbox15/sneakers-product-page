@@ -1,4 +1,3 @@
-
 outtput = document.querySelector('#output')
 var increment = document.querySelector('#increment')
 increment.addEventListener('click', increase)
