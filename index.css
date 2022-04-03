@@ -217,7 +217,7 @@ p span {
 
 /* Responsive mode for smaller devices */
 @media(max-width:1050px) {
-  #container{
+  #container {
     margin: 0;
     width: 100%;
   }
@@ -239,10 +239,6 @@ p span {
 
   #container-second a {
     display: block;
-}
-
-  #container-second{
-    text-align: center;
   }
 
   .show {
