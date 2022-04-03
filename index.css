@@ -55,7 +55,7 @@ h3 {
 a {
   text-decoration: none;
   font-size: 12px;
-  color: #000;
+  color: #fff;
 }
 
 
@@ -223,25 +223,30 @@ p span {
   }
 
   #menu {
+    cursor: pointer;
     display: inline;
     margin-left: 10px;
   }
 
   nav {
-    background: rgba(0, 0, 0, 0.041);
+    width: 100%;
+    background: rgb(0, 0, 0);
     position: absolute;
     left: 0;
-    transform: translateY(160px);
+    transform: translateY(200px);
     transition: 0.5s ease-in transform;
   }
 
   #container-second a {
     display: block;
+}
 
+  #container-second{
+    text-align: center;
   }
 
   .show {
-    transform: translateY(-191px);
+    transform: translateY(-210px);
   }
 
 
