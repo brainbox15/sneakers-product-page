@@ -1,5 +1,5 @@
 # Sneakers
-  A product landing page where users can purchase varieties of sneakers at a discounted price.
+  A product web page where users can purchase varieties of sneakers at a discounted price.
 
 > Live demo, click [_here_](https://sneakershub.netlify.app/). 
 
