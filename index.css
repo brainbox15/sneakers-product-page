@@ -145,13 +145,14 @@ hr {
 #images {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 #images img {
   margin-top: 22px;
   border-radius: 5px;
   width: 65px;
+  margin-right: 5px;
   box-shadow: 0 0 5px;
 
 }
@@ -216,6 +217,11 @@ p span {
 
 /* Responsive mode for smaller devices */
 @media(max-width:1050px) {
+  #container{
+    margin: 0;
+    width: 100%;
+  }
+
   #menu {
     display: inline;
     margin-left: 10px;
