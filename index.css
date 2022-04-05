@@ -32,20 +32,20 @@ hr {
 }
 
 #container-second a {
-  padding: 20px 5px 20px 5px;
+  padding: 0 5px;
   font-size: 16px;
 }
 
-#container-second {
-  margin-left: 3em;
-  flex: 1;
+#container-second a:hover {
+  color: rgba(255, 166, 0, 0.911);
+}
 
+#container-second {
+  flex: 1;
 }
 
 #container-third a {
   padding: 5px;
-
-
 }
 
 h3 {
@@ -229,16 +229,19 @@ p span {
   }
 
   nav {
+    padding-top: 10px;
     width: 100%;
     background: rgb(0, 0, 0);
     position: absolute;
     left: 0;
-    transform: translateY(200px);
+    transform: translateY(150px);
     transition: 0.5s ease-in transform;
   }
 
   #container-second a {
     display: block;
+    text-align: center;
+    padding-bottom: 1em;
   }
 
   .show {
